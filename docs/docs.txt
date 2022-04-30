@@ -1,0 +1,97 @@
+docs.txt 0.0.0                      UTF-8                     dh:2022-04-30
+----|----1----|----2----|----3----|----4----|----5----|----6----|----7----|--*
+
+                            GitHub orcmid/wingnut
+                            =====================
+
+        <https://github.com/orcmid/wingnut/blob/main/docs/docs.txt>
+                  <https://orcmid.github.io/wingnut/docs.txt>
+
+                    SPANNER WINGNUT'S MUDDLEWARE LABS
+                    ---------------------------------
+
+    This is a GitHub-hosted edition of the BlunderDome/wingnut sandbox
+    for experimentation and confirmation of blogging customizations,
+    archiving, and preservation.
+    This scaffolding, and further arrangements are a case of document
+    engineering applied to the wingnut project and site themselves.
+
+MANIFEST
+
+        docs.txt
+            this manifest and job-jar file
+
+
+----|----1----|----2----|----3----|----4----|----5----|----6----|----7----|--*
+
+                    Copyright 2022 Dennis E. Hamilton
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+----|----1----|----2----|----3----|----4----|----5----|----6----|----7----|--*
+
+ ATTRIBUTION
+
+   Hamilton, Dennis E. Spanner Wingnut's Muddleware Labs GitHub Edition
+   manifest and job jar.  Text file docs.txt version 0.0.0 dated 2022-04-30
+   available on the Internet at <https://orcmid.github.io/wingnut/docs.txt>
+
+ TODO
+
+  * This will be the publication staging folder when publication is handled
+    by generation under a framework such as Hugo.  The extra stage is to
+    allow review at the authoring location so only publish-ready material is
+    brought here when the time comes.
+
+  * This will also preserve materials that are already in HTML, having been
+    authored with Microsoft FrontPage and various blogging engines.
+
+  * This is a variation on the site-server model.  This will be documented
+    on docEng.
+
+  * It is fair to have this site document the construction of this site
+    and all the gyrations involved to extract previous wingnut content for
+    access as orcmid.github.io/wingnut.
+
+  * Determine if legacy construction structure is preserved here and the
+    index.html pages pre-empting the construction-structure index.htm.  It
+    also matters what happens with default.htm pages.
+
+  * For wingnut, it is appropriate for publishing framework materials that
+    will be the authoring source be made part of the orcmid/wingnut project.
+    This will depend on the fact that we are generating static pages from
+    static authoring content, typically some form of markdown.  We do not
+    intent to directly author in the docs/ folder but there may well have to
+    be maintenance of legacy pages, especially with regard to relative and
+    absolute uses of URLs.
+
+  * I am going to explore hugo and the hugo-books template with KaTeX support.
+
+  * Add Apache license and notices page ??  - It goes with the project, what
+    about the site?
+
+  * I really want to have a sandbox for trying different web-site frameworks
+    and generation methods.  Maybe I need to move spanner wingnut to GitHub?
+    This might be the safest thing.  Put it in a separate project so I can
+    migrate it different ways and have it all work.  I can also look at what
+    I did in the hexo case, and with the test files for hexo cases.
+
+  * Complete the current construction structure and the about and then also
+    use the construction folder to document the framework(s) used, if
+    desired.
+
+----|----1----|----2----|----3----|----4----|----5----|----6----|----7----|--*
+
+ 0.0.0 2022-04-30T18:50Z Initial place-holder and TODOs for the sandbox
+
+                          ***** end of docs.txt *****
