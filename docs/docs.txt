@@ -1,4 +1,4 @@
-docs.txt 0.0.0                      UTF-8                     dh:2022-04-30
+docs.txt 0.0.1                      UTF-8                     dh:2022-04-30
 ----|----1----|----2----|----3----|----4----|----5----|----6----|----7----|--*
 
                             GitHub orcmid/wingnut
@@ -43,7 +43,7 @@ MANIFEST
  ATTRIBUTION
 
    Hamilton, Dennis E. Spanner Wingnut's Muddleware Labs GitHub Edition
-   manifest and job jar.  Text file docs.txt version 0.0.0 dated 2022-04-30
+   manifest and job jar.  Text file docs.txt version 0.0.1 dated 2022-04-30
    available on the Internet at <https://orcmid.github.io/wingnut/docs.txt>
 
  TODO
@@ -63,7 +63,7 @@ MANIFEST
     and all the gyrations involved to extract previous wingnut content for
     access as orcmid.github.io/wingnut.
 
-  * Determine if legacy construction structure is preserved here and the
+  * Confirm that legacy construction structure is preserved here and the
     index.html pages pre-empting the construction-structure index.htm.  It
     also matters what happens with default.htm pages.
 
@@ -90,8 +90,30 @@ MANIFEST
     use the construction folder to document the framework(s) used, if
     desired.
 
+  * Bringing over the BlunderDome/wingnut/index.htm page as saved into a file
+    by Edge confirms that index.htm is not taken as default with the GitHub
+    Pages web server.
+
+  * There is a problem with wingnut accessing the orcmid.com construction
+    structure, it seems.  I must verify that.  If it is its own, I can deal
+    with that.  I also need to know whether the change of relative references
+    in the page were changed to absolute references when Edge save the file
+    or not.  I will create issues about this and figure out the next steps.
+
+  * The BlunderDome/wingnut construction structure is seriously connected to
+    orcmid.com in many respects.  I should be able to work around some or all
+    of that as long as I don't have to monkey with it too much.  I can fix
+    pages using FrontPage though have no clue that it will work on Windows 10.
+    If I do it on quadro, I will have to deal with re-extraction to the GitHub
+    project.  Though I guess that is not so tricky because it will look like
+    changed files and I can commit them.  I just have to avoid creating
+    collisions with myself.
+
+
 ----|----1----|----2----|----3----|----4----|----5----|----6----|----7----|--*
 
+ 0.0.1 2022-04-30T22:04Z Review what happens when I bring over an index.htm
+       via Edge web-page sve.
  0.0.0 2022-04-30T18:50Z Initial place-holder and TODOs for the sandbox
 
                           ***** end of docs.txt *****
