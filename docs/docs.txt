@@ -1,4 +1,4 @@
-docs.txt 0.0.2                      UTF-8                     dh:2022-05-01
+docs.txt 0.0.3                      UTF-8                     dh:2022-05-01
 ----|----1----|----2----|----3----|----4----|----5----|----6----|----7----|--*
 
                             GitHub orcmid/wingnut
@@ -13,13 +13,33 @@ docs.txt 0.0.2                      UTF-8                     dh:2022-05-01
     This is a GitHub-hosted edition of the BlunderDome/wingnut sandbox
     for experimentation and confirmation of blogging customizations,
     archiving, and preservation.
+
     This scaffolding, and further arrangements are a case of document
     engineering applied to the wingnut project and site themselves.
+
+    Currently, this is also a gathering of notes about the preservation
+    problem and ways to experiment with it.  This is rather different
+    than the usual employment of an established wingnut blog.  I need
+    to deal with preservation and figure out how to account for and
+    document the preservation effort. This has me expect that preservation
+    of nfoCentrale.com, the top level, is called for.
 
 MANIFEST
 
         docs.txt
             this manifest and job-jar file
+
+        index.htm
+            A scraped index.htm from orcmid/BlunderDome/wingnut to see
+            how construction structure might be migrated.  Scraping does not
+            get it right, creating absolute links as part of the scraped
+            file, as well as making local copies of the images being used.
+            This does reveal what inclusions of images are required though.
+
+        index_files
+            two images used by the scraped index.htm, hardhat-thumb.gif and
+            OrcmidsLair-thumb.gif.  These may be handy to use later.  There
+            is an index/ folder in wingnut and we have to see if that serves.
 
 
 ----|----1----|----2----|----3----|----4----|----5----|----6----|----7----|--*
@@ -139,9 +159,43 @@ MANIFEST
   * I also need to check whether a private GitHub repository can have a public
     Pages site.
 
+  * I can morph the nfoCentrale construction structure to work at the wingnut
+    orcmid.github.io/wingnut level.  Reflect that in Projects and Issues.
+    To fix the use of templates from BlunderDome/wingnut pages, I need to
+    do that first on nfoCentrale/orcmid/BlunderDome/wingnut.  This becomes
+    an interesting preservation project.
+
+  * While I am experimenting with porting from A2 Hosting and the orcmid
+    BlunderDome, I have no way to use wingnut to capture the experience.
+    Some legacy elements and notes on work-in-progress, such as ones here
+    on doc.txt need to be captured for historical reasons.  I wonder if the
+    Wiki is the place for an useful account.  I could use the docEng wiki,
+    but I think that is too far removed. Ditto concerning docInterop.
+
+  * I just learned that the latest version of VirtualBox cannot function on
+    my laptop, scritto, where I run Windows XP and communicate with quadro,
+    where IIS, FrontPage extensions, and the VSS database reside.  Scritto
+    could fail at any time and deserves to be decommissioned also.
+
+  * I think I should preserve nfoCentral also, and use the experience for
+    preservation of important elements of nfoCentrale, such as ODMA and some
+    of the others, partially or completely.
+
+  * It becomes an option to preserve Orcmid's Lair or not.  It has much
+    material that could be rescued and also re-engineered over time, such
+    as the readings and related materials.  The blog is also worth preserving
+    so I can refer to it in the future.  I suppose that means clueless might
+    be preserved as well.
+
+  * This raises the issue of needing tools as aids for automation assistance
+    in this kind of rescue, such as reverse-engineering markdown from the
+    HTML.
+
 
 ----|----1----|----2----|----3----|----4----|----5----|----6----|----7----|--*
 
+ 0.0.3 2022-05-01T15:50Z More musings about ways to accomplish preservation
+       of wingnut and of nfoCentrale.com top level.
  0.0.2 2022-05-01T00:18Z Handwringing about how wingnut is not self-contained.
  0.0.1 2022-04-30T22:04Z Review what happens when I bring over an index.htm
        via Edge web-page sve.
