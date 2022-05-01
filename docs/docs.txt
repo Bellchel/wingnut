@@ -1,4 +1,4 @@
-docs.txt 0.0.1                      UTF-8                     dh:2022-04-30
+docs.txt 0.0.2                      UTF-8                     dh:2022-05-01
 ----|----1----|----2----|----3----|----4----|----5----|----6----|----7----|--*
 
                             GitHub orcmid/wingnut
@@ -43,7 +43,7 @@ MANIFEST
  ATTRIBUTION
 
    Hamilton, Dennis E. Spanner Wingnut's Muddleware Labs GitHub Edition
-   manifest and job jar.  Text file docs.txt version 0.0.1 dated 2022-04-30
+   manifest and job jar.  Text file docs.txt version 0.0.2 dated 2022-05-01
    available on the Internet at <https://orcmid.github.io/wingnut/docs.txt>
 
  TODO
@@ -109,9 +109,40 @@ MANIFEST
     changed files and I can commit them.  I just have to avoid creating
     collisions with myself.
 
+  * I also need to see whether default.htm[l] has any significance in a folder
+    of GitHub pages.
+
+  * I also need to see where the Orcmid's Lair and Construction Zone images
+    are fetched from and can I accomplish the same thing.  There may be a
+    problem of construction not being in the right place, or the images not
+    being in the right place.  I should be able to fix that in FrontPage.
+
+  * DANGER DANGER We have orcmid/BlunderDome/wingnut so this doesn't line up
+    with wingnut/docs with docs the equivalent of the root.  The problem is
+    not so much with the content of wingnut/ as it is with the reliance on
+    higher-level locations, such as orcmid/construction, even though those are
+    accessed by relative references.
+
+  * AN ALTERNATIVE: I could create an orcmid/docs/ project with the host of
+    that basically orcmid.github.io/ itself I think.  That would grab
+    orcmid's lair.  It is a preservation move but not a great way to continue
+    wingnut as a sandbox.
+
+  * BETTER ALTERNATIVE: Create BlunderDome/wingnut/construction and create the
+    necessary elements there.  This means fixing the FrontPage includes to
+    use that construction material and also fix the construction structure
+    to link to that construction material.  That is something I can do though.
+
+  * BETTER THAN THAT: Maybe I don't need to preserve WingNut.  I can clean-
+    sheet it as the GitHub-oriented version.
+
+  * I also need to check whether a private GitHub repository can have a public
+    Pages site.
+
 
 ----|----1----|----2----|----3----|----4----|----5----|----6----|----7----|--*
 
+ 0.0.2 2022-05-01T00:18Z Handwringing about how wingnut is not self-contained.
  0.0.1 2022-04-30T22:04Z Review what happens when I bring over an index.htm
        via Edge web-page sve.
  0.0.0 2022-04-30T18:50Z Initial place-holder and TODOs for the sandbox
